@@ -1,0 +1,52 @@
+{
+  "name": "messenger_server",
+  "version": "1.0.0",
+  "description": "backend api for messenger build by MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmta1990/MERN_Messenger_Backend.git"
+  },
+  "keywords": [
+    "messenger",
+    "char",
+    "api",
+    "websocket",
+    "real_time"
+  ],
+  "private": true,
+  "author": "milad taghipour",
+  "license": "ISC",
+  "_moduleAliases": {
+    "@models": "db/models",
+    "@services": "app/services"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "bookshelf": "^1.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "ioredis": "^4.14.1",
+    "jalali-moment": "^3.3.3",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.20.3",
+    "module-alias": "^2.2.2",
+    "moment": "^2.24.0",
+    "mongoose": "^5.6.9",
+    "mysql": "^2.17.1",
+    "mysql2": "^1.6.5",
+    "peer": "^0.2.10",
+    "sequelize": "^5.19.2",
+    "sockjs": "^0.3.19"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2"
+  }
+}
